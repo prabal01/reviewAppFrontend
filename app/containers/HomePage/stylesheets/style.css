@@ -1,0 +1,12 @@
+body{
+    background-color: #112240;
+}
+.homePageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100wh;
+    height: 100vh;
+    padding: 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,54 @@
+.cardContainer {
+  width: 300px;
+  background-color: #112240;
+  border-radius: 8px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+.cardContainer:hover{
+    position: relative;
+    bottom: 15px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.content {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.buttonsDiv {
+    padding: 10px 0 20px 20px;
+    
+}
+.reviewButton {
+    border: 2px solid #64ffda;
+    background-color: #112240;
+    color: #64ffda;
+    border-radius: 4px;
+    padding-right: 18px;
+}
+.reviewButton:hover {
+    background-color: #64ffda;
+    color: white;
+}
+
+.name {
+    color: #64ffda;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.profession {
+    color: white;
+}
+
+.outline{
+    border: 2px solid #64ffda;
+    margin: 20px;
+    box-shadow: 0 0 10px #64ffda;
+    border-radius: 8px;
+}
